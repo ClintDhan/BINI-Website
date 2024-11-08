@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Option 1: Include in HTML -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../src/style.css">
     <link rel="stylesheet" href="output.css">
 </head>
 
@@ -12,9 +15,9 @@
    
     <div class="h-screen bg-[url('../img/banner-cot-web.webp')] bg-cover bg-top">
             <!-- nav section -->
-            <div class="h-20 flex justify-between items-center px-12">
+            <div class="h-20 flex justify-between items-center px-20 sticky">
                 <img src="../img/bini-logo-allwhite.webp" alt="" alt="Logo" class="max-w-[100px] max-h-[100px]">
-                <div class="space-x-3">
+                <div class="space-x-4 text-lg text-white font-semibold">
                     <a href="">Profile</a>
                     <a href="">Music</a>
                     <a href="">Videos</a>
@@ -24,9 +27,18 @@
                     <a href="">Articles</a>
                     <a href="">Subscribe</a>
                 </div>
-                <div>
-                    <a href="">Exclusive Membership</a>
+                <div class="text-lg text-customExclusive bg-white p-1 px-4 rounded-2xl">
+                    <a href="" class="font-semibold">Exclusive Membership</a>
                 </div>
+            </div>
+
+            <div class="links-container px-20 flex items-end justify-end h-5/6 space-x-4 mr-10 text-customExclusive font-bold">
+                <div><i class="bi bi-instagram"></i></div>
+                <div><i class="bi bi-facebook"></i></div>
+                <div><i class="bi bi-tiktok"></i></div>
+                <div><i class="bi bi-spotify"></i></div>
+                <div><i class="bi bi-twitter-x"></i></div>
+                <div><i class="bi bi-youtube"></i></div>
             </div>
     </div>
 

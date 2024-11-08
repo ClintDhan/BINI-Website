@@ -4,7 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        customViolet: '#cdb4db', //head here kung gusto ka magbuhat custom colors na dili available sa predefined class sa tailwind hehe
+        customViolet: '#cdb4db',
+        customExclusive: '#58C9d4', //head here kung gusto ka magbuhat custom colors na dili available sa predefined class sa tailwind hehe
       }
     },
   },
